@@ -22,3 +22,8 @@ Se entrena el sistema con 200 épocas y se obtienen resultados bastante acertado
 
 Más descripción de la realización del proyecto en 
 
+
+### Sobre mi:
+
+Me llamo Bruno Diaz vivo en Mendoza, Argentina. Soy Ingeniero en Electrónica pero me encanta programar y estoy aprendiendo machine learning hace unos meses.
+
