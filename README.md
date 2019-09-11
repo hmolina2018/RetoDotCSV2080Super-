@@ -2,10 +2,10 @@
 
 Concurso del canal DotCSV gana una Nvidia 2080 Súper
 
-##**Objetivo**:
+##Objetivo:
 Dar uso de las redes condicionales adversarias en el algoritmo pix2pix para obtener a partir de una imagen en blanco y negro al estilo Comic una imagen con características humanas. 
 
-##**Desarrollo**:
+##Desarrollo:
 
 Para afrontar este proyecto, se necesita un dataset con imágenes de personas y su equivalente en caricatura. Las fotos se obtuvieron de un dataset de rostros humanos (https://sites.google.com/view/sof-dataset) las cuales se seleccionaron sólo 50 y otras 50 de un sitio de fotos selfies (http://selfiecity.net/selfiexploratory/).
 
