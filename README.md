@@ -12,18 +12,38 @@ Para afrontar este proyecto, se necesita un dataset con imágenes de personas y 
 Al momento se disponía de 100 imagenes.
 
 El dataset se preparó de la siguiente manera:
+
 1-	Utilización del software XnConvert para trabajar las imágenes en lotes y renombrarlas a “sample__xx.jpg”
+
 2-	Se utilizó una App para Android llamada “Comica”, la cual realiza la conversión a estilo cómic. Se convierte imagen por imagen a través de mi teleléfono celular.
-3-	Se normalizan los tamaños de las imagenes para que tanto input como target tengan la misma cantidad de datos.
-4-  Se cuadriplicó el tamaño del dataset inviertiendo las imagenes en espejo, con más brillo y con menos brillo.
+
+3-	Se normalizan los tamaños de las imagenes tanto de input como de target.
+
+4-  Se cuadriplicó el tamaño del dataset inviertiendo las imagenes en efecto espejo, con más brillo y con menos brillo.
+
 5-	Se suben a google drive las imágenes normales a la carpeta ‘Target’ y las convertidas a cómic a la carpeta ‘Input’
 
-Se entrena el sistema con 200 épocas y se obtienen resultados bastante acertados.
+# Se realizan pruebas con 3 escenarios:
 
-Más descripción de la realización del proyecto en 
+a) Entrenamiento con 100 imágenes originales
+
+b) Entrenamiento con 200 imágenes ( originales + imágenes espejadas)
+
+c) Entrenamiento con 400 imágenes ( originales + imágenes espejadas + más brillo + menos brillo)
+
+# Conclusiones
+
+Las imágenes son muy escasas para predecir un rostro humano, pero al menos el sistema aprende en algunas imágenes a colorear el rostro y del color correcto.
+
+La ampliación del dataset de la forma mencionada no parece ser efectiva, el resultado que más me convenció es las pruebas (a)
+
+Más descripción y detalles del proyecto en youtube:
+
+[Ver video explicativo](https://youtu.be/GQxsDHkLrZ8)
+
 
 
 ### Sobre mi:
 
-Me llamo Bruno Diaz vivo en Mendoza, Argentina. Soy Ingeniero en Electrónica pero me encanta programar y estoy aprendiendo machine learning hace unos meses.
+Me llamo Bruno Diaz vivo en Mendoza, Argentina. Soy Ingeniero en Electrónica pero me encanta programar y estoy comenzando en el mundo del Machine Learning
 
